@@ -1,17 +1,18 @@
 # websiteforbitstask
-this website is made for bits 2020 advance task
+this website is made about slgoalazo(unofficial football community in sri lanka
 
 # https://endhambot.github.io/websiteforbitstask/
 
 ![](img/website.png)
 
-## official site of bits
-http://bits.acicts.lk/
+## link for slgoalazo
+https://www.instagram.com/slgoalzo/
 
 # Features
 
-*linked to bits official site
-*to contact me
+*develop the the football in sri lanka
+
+*you can get informations about fooball
 
 # MIT License
 
