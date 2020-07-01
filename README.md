@@ -1,6 +1,8 @@
 # websiteforbitstask
 this website is made for bits 2020 advance task
 
+# https://endhambot.github.io/websiteforbitstask/
+
 ![](img/website.png)
 
 ## official site of bits
