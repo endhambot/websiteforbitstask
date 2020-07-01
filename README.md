@@ -15,6 +15,8 @@ http://bits.acicts.lk/
 
 # MIT License
 
+https://github.com/endhambot/websiteforbitstask/blob/master/License.txt
+
 MIT License
 
 Copyright (c) 2020 Thulina Perera
