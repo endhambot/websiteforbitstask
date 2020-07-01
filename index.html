@@ -1,44 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">'
-<head>
-    <meta charset="UTF-8">
-    <title>my website for bits task</title>
-    <link rel="stylesheet" href="style.css">
-</hea>
-<body>
-    <div class="wrapper">
-        <nav class="navbar">
-            <img class="logo" src="img/logo.gif">
-            <ul>
-                <li><a class="avtive" href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="http://bits.acicts.lk/">BITS</a></li>
-            </ul>
-        </nav>
-        <div class="center">
-            <h1>MY WEBSITE</h1>
-            <h2>for advance task</h2>
-            <div class="buttons">
-                <form action="about.html">
-                    <button type="submit">about me</button></form>
-			
-			    <form action="contact.html">
-                    <button type="submit">Contact</button></form>
-            </div>
-        </div>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SLGOALAZO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="w3-top">
+      <div class="w3-bar w3-black">
+        <span class="branding w3-bar-item w3-mobile">SLGOALAZO</span>
+        <span class="w3-right w3-mobile">
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="#">Home</a>
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="#about">About</a>
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="#services">what we do</a>
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="#cntact">Contact</a>
+        </span>
+      </div>
     </div>
-<footer class="footer-distributed">
+
+    <section class="showcase">
+      <div class="w3-container w3-center">
+        <h1 class="w3-text-shadow w3-animate-opacity">SLGOALAZO </h1>
+        <hr>
+        <p class="w3-animate-opacity">unofficial football community in Sri Lanka</p>
+        <button onclick="document.getElementById('start-modal').style.display='block'" class="w3-button w3-red w3-large w3-opacity">Join With Us</button>
+      </div>
+    </section>
+
+    <section class="section w3-red w3-hover-opacity">
+      <div class="w3-container w3-center">
+        <i class="fa fa-futbol-o"></i>
+        <h2>Welcome To the SLGOALAZO fanpage</h2>
+      </div>
+    </section>
+
+    <section class="section w3-light-grey w3-hover-opacity">
+      <div class="w3-container w3-center">
+        <i class="fa fa-arrow-down"></i>
+        <h2>Scroll Down for more information</h2>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="w3-container">
+        <div class="w3-row-padding">
+          <div class="w3-col m5">
+            <img src="img/6.png">
+          </div>
+          <div class="w3-col m7">
+            <button onclick="accFunction('who')" class="w3-btn-block w3-left-align">
+            About Us(click here)</button>
+
+            <div id="who" class="w3-container w3-hide">
+              <h3>About Us</h3>
+              <p>unofficial football fanpage in sri lanka created by thulina,chanithi.first Started as a instergram account then made it to a facebook fanpage with over 1000 followers .</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section w3-red w3-hover-opacity">
+      <div class="w3-container w3-center">
+        <h1 class="w3-text-shadow">WHAT WE DO</h1>
+      </div>
+    </section>
+
+    <section class="section w3-light-grey">
+      <div class="w3-container w3-center">
+        <div class="w3-row">
+          <div class="w3-col m3">
+            <i class="fa fa-comment"></i>
+            <h3>socials</h3>
+            <p>finding football fans around sri lanaka through social medias</p>
+          </div>
+          <div class="w3-col m3">
+            <i class="fa fa-futbol-o"></i>
+            <h3>information</h3>
+            <p>finding latest football stories and news and share those in our fanpage</p>
+          </div>
+          <div class="w3-col m3">
+            <i class="fa fa-eye"></i>
+            <h3>scouting</h3>
+            <p>scouting sri Lankan playes for clubs like sounders,colombo fc,etc.</p>
+          </div>
+          <div class="w3-col m3">
+            <i class="fa fa-user-circle"></i>
+            <h3>Gather experience from pros</h3>
+            <p>Gathering information from pro footballers in sri lanka and share those on our fan page</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section w3-dark-grey w3-hover-opacity">
+      <div class="w3-container w3-center">
+        <h1 class="w3-text-shadow">GET IN TOUCH</h1>
+        <p>get in touch with us to develop football around our nation.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="w3-container">
+        <div class="w3-card-4">
+          <div class="w3-container w3-dark-grey">
+            <h2>Contact Us</h2>
+          </div>
+            <form class="w3-container w3-padding-xlarge">
+            <label class="w3-label">Name</label>
+            <input class="w3-input" type="text">
+            <label class="w3-label">Email</label>
+            <input class="w3-input" type="text">
+            <label class="w3-input">Message</label>
+            <textarea class="w3-input w3-border" style="resize:none"></textarea>
+            <br>
+            <button type="submit" class="w3-button">Submit</button>
+            <br><br>
+            </form>
+          </div>
+      </div>
+    </section>
+
+    <footer class="footer-distributed">
 
 			<div class="footer-left">
 
-				<h3>BITS<span>advance task</span></h3>
-
-				<p class="footer-links">
-					<a href="index.html" class="link-1">Home</a>
-					<a href="about.html" class="link-2">About</a>
-					<a href="contact.html" class="link-3">Contact</a>
-				</p>
+				<h3>SL<span>GOALAZO</span></h3>
 
 				<p class="footer-company-name">THULINA  © 2020</p>
 			</div>
@@ -47,7 +137,7 @@
 
 				<div>
 					<i class="fa fa-map-marker"></i>
-					<p><span>Ananda college</span> Colombo 10</p>
+					<p><span>203/4/A Koholwila Road,Gonawala,</span>Kelaniya,Sri Lanka </p>
 				</div>
 
 				<div>
@@ -65,8 +155,8 @@
 			<div class="footer-right">
 
 				<p class="footer-company-about">
-					<span>About us</span>
-					this is the website that i made for bits 2020 advance task
+					<span>About Me</span>
+          u16 level international footballer from Ananda college and Sounders fc.No 09 striker of national squad u16
 				</p>
 
 				<div class="footer-icons">
@@ -80,5 +170,41 @@
 			</div>
 
 		</footer>
-</body>
+
+    <div id="start-modal" class="w3-modal">
+      <div class="w3-modal-content">
+        <header class="w3-container w3-red">
+          <span onclick="document.getElementById('start-modal').style.display='none'" class="w3-closebtn">&times;</span>
+          <h2>Join with us</h2>
+        </header>
+
+        <div class="w3-container">
+          <form>
+            <div class="w3-section">
+              <label>Name</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Name">
+              <label>mobile number</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter mobile number">
+              <label>Password</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password">
+              <label>Confirm Password</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password">
+              <button class="w3-black w3-btn-block w3-section w3-padding">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function accFunction(id) {
+          var x = document.getElementById(id);
+          if (x.className.indexOf("w3-show") == -1) {
+              x.className += " w3-show";
+          } else {
+              x.className = x.className.replace(" w3-show", "");
+          }
+      }
+      </script>
+  </body>
 </html>

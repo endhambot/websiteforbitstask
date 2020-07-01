@@ -1,89 +1,59 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-.wrapper{
-    background: url(img/bg.png);
-    background-size: cover;
-    height: 100vh;
-}
-.navbar{
-    height: 80px;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.4);
-}
-.logo{
-    width: 140px;
-    height: 80px;
-    padding: 5px 100px;
-}
-.navbar ul{
-    float: right;
-    margin-right: 20px;
-}
-.navbar ul li{
-    list-style: none;
-    margin: 0 8px;
-    display: inline-block;
-    line-height: 80px;
-}
-.navbar ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding: 6px 13px;
-    transition: .4s;
-}
-.navbar ul li a.active,
-.navbar ul li a:hover{
-    background: red;
-    border-radius: 2px;
-}
-.wrapper .center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: sans-serif;
-    user-select: none;
-}
-.center h1{
-    color: white;
-    font-size: 70px;
-    font-weight: bold;
-    width: 900px;
-    text-align: center;
+.branding{
+  font-size:17px;
 }
 
-.center h2{
-    color: white;
-    font-size: 70px;
-    font-weight: bold;
-    width: 885px;
-    margin-top: 10px;
-    text-align: center;
+.showcase{
+  background:url('../img/5.png') no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding:140px 100px;
+  color:#fff;
 }
-.center .buttons{
-    margin: 80px 380px;
+
+.showcase h1{
+  font-size:40px;
+  font-weight:700;
+  text-transform: uppercase;
 }
-.buttons button{
-    height: 50px;
-    width: 150px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #ffb3b3;
-    background: red;
-    border: 1px solid #cc0000;
-    outline: none;
-    cursor: pointer;
-    border-radius: 25px;
-    transition: .5s;
+
+.showcase hr{
+  width:100px;
+  margin:auto;
+  border-width:3px;
+  border-color:#f44336;
 }
-.buttons .btn{
-    margin-left: 25px;
+
+.showcase p{
+  font-size:16px;
+  padding-bottom:20px;
 }
-.buttons button:hover{
-    background: #cc0000;
+
+.section{
+  padding:40px 0;
+}
+
+.section h2{
+  padding:0;
+  margin:0;
+}
+
+.section .fa{
+  font-size:50px;
+}
+
+.section img{
+  width:100%;
+}
+
+@media only screen and (max-width:600px){
+  body{
+    margin-top:190px;
+  }
+
+  .showcase{
+    height:400px;
+    padding: 60px 0;
+  }
 }
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
@@ -108,13 +78,10 @@
 	vertical-align: top;
 }
 
-/* Footer left */
 
 .footer-distributed .footer-left{
 	width: 40%;
 }
-
-/* The company logo */
 
 .footer-distributed h3{
 	color:  #ffffff;
@@ -126,22 +93,6 @@
 	color:  lightseagreen;
 }
 
-/* Footer links */
-
-.footer-distributed .footer-links{
-	color:  #ffffff;
-	margin: 20px 0 12px;
-	padding: 0;
-}
-
-.footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-  font-weight:400;
-	text-decoration: none;
-	color:  inherit;
-}
-
 .footer-distributed .footer-company-name{
 	color:  #222;
 	font-size: 14px;
@@ -149,7 +100,6 @@
 	margin: 0;
 }
 
-/* Footer Center */
 
 .footer-distributed .footer-center{
 	width: 35%;
@@ -207,7 +157,6 @@
   content: none;
 }
 
-/* Footer Right */
 
 .footer-distributed .footer-right{
 	width: 20%;
@@ -250,7 +199,6 @@
 	margin-bottom: 5px;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
 
@@ -272,4 +220,3 @@
 	}
 
 }
-
