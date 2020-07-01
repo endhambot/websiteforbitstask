@@ -1,5 +1,5 @@
 # websiteforbitstask
-this website is made about slgoalazo(unofficial football community in sri lanka
+this website is made about slgoalazo(unofficial football community in sri lanka)
 
 # https://endhambot.github.io/websiteforbitstask/
 
